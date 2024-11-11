@@ -16,17 +16,7 @@ nav{
     align-items: center;
 }
 
-.intro::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #000000aa;
-    position: absolute;
-    top: 0;
-    left: 0;
-    mix-blend-mode: darken;
-}
+
 
 .intro-top{
     position: relative;
