@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.intro{
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.intro::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: darken;
+}
+
+.intro-top{
+    position: relative;
+    z-index: 2;
+}
+
+.but-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.tiles, .review-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+}
+
+.contact-text{
+    grid-column: 1/3;
+}
+
+.review-body__item{
+    position: relative;
+}
+
+.user{
+    position: relative;
+    left: -50px;
+}
+
+.contact-body *{
+    width: 100%;
+}
+
+.contact-body input[type="submit"], .btn{
+    background-color: var(--light-blue);
+    border: 5px solid var(--light-blue);
+    border-radius: 5%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

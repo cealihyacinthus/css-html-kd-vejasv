@@ -48,9 +48,21 @@ nav{
     width: 100%;
 }
 
-.contact-body input[type="submit"]{
+.contact-body input[type="submit"], .btn{
     background-color: var(--light-blue);
     border: 5px solid var(--light-blue);
-    border-radius: 100%;
+    border-radius: 5%;
 }
 
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

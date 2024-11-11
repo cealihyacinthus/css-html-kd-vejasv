@@ -8,6 +8,7 @@
   --text: #252b42;
   --second-text: #737373;
   --light-blue: #23a6f0;
+  --pink: #c14dde;
 }
 
 body {
@@ -110,4 +111,33 @@ a.button-corner__text{
 .contact{
     padding: 10%;
     background-image: url(/Images/contact-cove.png);
+}
+
+.contact-body input[type="submit"], .btn{
+    background-color: var(--light-blue);
+    border: 5px solid var(--light-blue);
+    border-radius: 5%;
+}
+
+.btn{
+    text-align: center;
+    width: 150px;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+.about{
+    padding: 15%;
+    color: var(--text);
+    background-color: var(--light-text);
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-corner:hover, .for-hover:hover, .btn:hover{
+    background-color: var(--pink);
 }
