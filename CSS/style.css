@@ -68,3 +68,10 @@ a.button-corner__text{
     columns: var(--light-blue);
 }
 
+.tiles-item{
+    text-align: center;
+}
+
+.review-bg{
+    background-color: var(--light-blue);
+}

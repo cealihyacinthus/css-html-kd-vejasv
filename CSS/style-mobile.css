@@ -32,3 +32,10 @@ nav{
     position: relative;
     z-index: 2;
 }
+
+.tiles{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+}
