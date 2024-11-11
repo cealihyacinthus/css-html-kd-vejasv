@@ -110,6 +110,7 @@ a.button-corner__text{
 
 .contact{
     padding: 10%;
+    background: linear-gradient(to right, #ffffff, #fafafa00);
     background-image: url(/Images/contact-cove.png);
 }
 
