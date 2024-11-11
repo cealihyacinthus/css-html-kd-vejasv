@@ -33,9 +33,24 @@ nav{
     z-index: 2;
 }
 
-.tiles{
+.tiles, .review-body, .contact-body{
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
     justify-items: center;
 }
+
+.user{
+    display: none;
+}
+
+.contact-body *{
+    width: 100%;
+}
+
+.contact-body input[type="submit"]{
+    background-color: var(--light-blue);
+    border: 5px solid var(--light-blue);
+    border-radius: 100%;
+}
+

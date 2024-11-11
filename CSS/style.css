@@ -16,14 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-
-.weight7{
-    font-weight: 700;
-}
-
-.weight5{
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fsize-big{
@@ -70,8 +63,51 @@ a.button-corner__text{
 
 .tiles-item{
     text-align: center;
+    margin: 50px;
+    width: 60%;
+}
+
+.tiles-item img{
+    margin-bottom: 10px;
+}
+
+.tiles-item p{
+    margin-top: 10px;
 }
 
 .review-bg{
     background-color: var(--light-blue);
+}
+
+.review-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.review-header__item{
+    text-align: center;
+    padding: 0% 20%;
+}
+
+
+.review-body__item{
+    background-color: var(--light-text);
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.review-body__dark, .contact__text{
+    color: var(--text);
+}
+
+.review-body__light{
+    color: var(--second-text);
+}
+
+.contact{
+    padding: 10%;
+    background-image: url(/Images/contact-cove.png);
 }
