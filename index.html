@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="CSS/style-mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="CSS/style-desktop.css"
+    />
   </head>
   <body>
     <header>
       <h1>BrandName</h1>
-      <nav>
+      <img id="burger" src="Images/icn menu .icn-xs.svg" alt="menu" />
+      <nav class="pad-colum">
         <a href="#">Home</a>
         <a href="">Product</a>
         <a href="">Pricing</a>
@@ -16,22 +34,28 @@
       </nav>
     </header>
     <section>
-      <p>We Ensure A Best Insurance Service</p>
-      <p>
-        We know how large objects act, but things on a small scale just do not
-        act that way.
-      </p>
-      <a href="#">Get Quote Now</a>
-      <a href="#">Learn More</a>
+      <div class="intro pad-colum">
+        <p class="intro-top weight7 fsize-big">We Ensure A Best Insurance Service</p>
+        <p class="intro-top weight5 fsize-md">
+          We know how large objects act, but things on a small scale just do not
+          act that way.
+        </p>
+        <div class="button-corner intro-top">
+          <a class="button-corner__text" href="#">Get Quote Now</a>
+        </div>
+        <div class="button-corner button-corner--shaded intro-top">
+          <a class="button-corner__text" href="#">Learn More</a>
+        </div>
+      </div>
     </section>
     <section>
-      <img src="" alt="icon" />
+      <img src="Images/icn resize .icn-xl.svg" alt="icon" />
       <p>Peace of Mind</p>
       <p>So it really behaves like neither. Now we have given up.</p>
-      <img src="" alt="icon" />
+      <img src="Images/icn resize .icn-xl.svg" alt="icon" />
       <p>Set For Life</p>
       <p>They were used to create the machines that launched</p>
-      <img src="" alt="icon" />
+      <img src="Images/icn resize .icn-xl.svg" alt="icon" />
       <p>100% Satisfaction</p>
       <p>So it really behaves like neither. Now we have given up.</p>
     </section>
@@ -42,6 +66,7 @@
         Classical physics: Newtonian mechanics
       </p>
       <article>
+        <img src="Images/user.1.svg" alt="user" />
         <p>Regina Miles</p>
         <p>Designer</p>
         <div>stars</div>
@@ -53,6 +78,7 @@
         </p>
       </article>
       <article>
+        <img src="Images/user.2.svg" alt="user" />
         <p>Regina Miles</p>
         <p>Designer</p>
         <div>stars</div>
@@ -68,30 +94,32 @@
       <p>Contact Us</p>
       <p>Make an Appointment</p>
       <form>
-        <input type="text" placeholder="Full Name"/>
-        <input type="email" placeholder="example@gmail.com"/>
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="example@gmail.com" />
         <select name="select">
-            <option value="">Please Select</option>
-            <option value="option2">option 2</option>
-            <option value="option3">option 3</option>
+          <option value="">Please Select</option>
+          <option value="option2">option 2</option>
+          <option value="option3">option 3</option>
         </select>
         <select name="available">
-            <option value="">4:00 Available</option>
-            <option value="option2">option 2</option>
-            <option value="option3">option 3</option>
+          <option value="">4:00 Available</option>
+          <option value="option2">option 2</option>
+          <option value="option3">option 3</option>
         </select>
-        <input type="text" placeholder="Message"/>
-        <input type="submit" value="Book Appointment"/>
+        <input type="text" placeholder="Message" />
+        <input type="submit" value="Book Appointment" />
       </form>
     </section>
     <section>
-        <p>Consulting Agency For Your Business</p>
-        <p>the quick fox jumps over the lazy dog</p>
-        <a href="#">Contact Us</a>
+      <p>Consulting Agency For Your Business</p>
+      <p>the quick fox jumps over the lazy dog</p>
+      <a href="#">Contact Us</a>
     </section>
     <footer>
-        <p>Made With Love By Figmaland All Right Reserved </p>
-        <img src="" alt="fb"><img src="" alt="ig"><img src="" alt="tw">
+      <p>Made With Love By Figmaland All Right Reserved</p>
+      <img src="Images/ant-design_facebook-filled.svg" alt="fb" />
+      <img src="Images/ant-design_instagram-outlined.svg" alt="ig" />
+      <img src="Images/ant-design_twitter-outlined.svg" alt="tw" />
     </footer>
   </body>
 </html>

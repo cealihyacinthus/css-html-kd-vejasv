@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro{
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.intro::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: darken;
+}
+
+.intro-top{
+    position: relative;
+    z-index: 2;
+}
