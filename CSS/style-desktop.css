@@ -78,3 +78,7 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.img-desk{
+    display: inline-block;
+}

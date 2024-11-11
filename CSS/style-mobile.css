@@ -16,7 +16,9 @@ nav{
     align-items: center;
 }
 
-
+.img-mobile{
+    display: inline-block;
+}
 
 .intro-top{
     position: relative;

@@ -134,6 +134,7 @@ a.button-corner__text{
     padding: 10%;
     background: linear-gradient(to right, #ffffff, #fafafa00);
     background-image: url(/Images/contact-cove.png);
+    background-position: center;
 }
 
 .contact-body input[type="submit"], .btn{
@@ -163,4 +164,8 @@ a.button-corner__text{
 
 .button-corner:hover, .for-hover:hover, .btn:hover{
     background-color: var(--pink);
+}
+
+.img-mobile, .img-desk{
+    display: none;
 }
